@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <div>{{message}}</div>                
+        <p>Resultado: {{counter}}</p>            
+        <p>Cantidad de Clicks: {{click}}</p>   
+
+        <button v-on:click='decrease()'>-</button>            
+        <button v-on:click='increase()'>+</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
